@@ -5,3 +5,8 @@ Source: https://www.figma.com/file/iEagWefJYoQkLx1UzYm77Q/Weather-App-(Community
 
 Mobile Version layout only 
   Project made for easy implementation on Kanban board and easy git practice in colab
+  
+  Rules:
+  ! Only modify or add css styles for your specific component 
+          To keep work clean for other team members
+  
