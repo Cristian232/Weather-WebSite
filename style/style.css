@@ -12,5 +12,16 @@
       padding: 0 15px;
     }
 
+
+    .wrapper-weatherPerHourHeadline{
+      color: black;
+      height: 24px;
+      width: 130px;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      font-style:normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 24px;
+    }
     
   }
