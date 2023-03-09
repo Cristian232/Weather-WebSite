@@ -12,6 +12,31 @@
       padding: 0 15px;
     }
 
+    .wrapper-top-statusBar {
+    width: 3px;
+    height: 10px;
+    top: 2px;
+    padding: 15.5px;
+    color: #000000;
+    }
+
+    .top-clock {
+      background-color: aquamarine;
+      display: block;
+      float: left;
+      width:30%;
+    }
+
+    .wrapper-top-statusBar ul {
+      display: block;
+      float: left;
+      width:40%;
+    }
+
+    .wrapper-top-statusBar ul li {
+      display: block;
+      float: right;
+    }
 
     .wrapper-weatherPerHourHeadline{
       color: black;
