@@ -1,0 +1,15 @@
+@media only screen and (min-width: 1000px) {
+    body {
+      background-color:#4F7FFA;
+      padding-top: 30px;
+    }
+
+    .container-main {
+      background-color: #FFFFFF;
+      width: 375px;
+      height: 900px;
+      margin: 0 auto;
+    }
+
+
+  }
