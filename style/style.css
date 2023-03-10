@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Source+Sans+Pro:wght@600&display=swap');
+
 @media only screen and (min-width: 1000px) {
     body {
       background-color:#4F7FFA;
-      padding-top: 30px;
+      padding-top: 13px;
     }
 
     .container-main {
@@ -9,56 +11,41 @@
       width: 375px;
       height: 900px;
       margin: 0 auto;
-      padding: 0 15px;
+      padding: 16px 15px;
     }
 
     .wrapper-top-statusBar {
-    width: 3px;
-    height: 10px;
-    top: 2px;
-    padding: 15.5px;
-    color: #000000;
+      height:16px;
     }
 
-    .top-clock {
-      background-color: aquamarine;
+    .wrapper-top-statusBar .top-clock {
       display: block;
       float: left;
       width:30%;
-    }
-
-    .wrapper-top-statusBar ul {
-      display: block;
-      float: left;
-      width:40%;
+      padding: 0px 7px;
+      font-family: Arial, serif;
+      font-family: Inter, serif;
+      font-weight: 500;
     }
 
     .wrapper-top-statusBar ul li {
       display: block;
       float: right;
+      margin-left: 4px;
     }
 
-    .wrapper-weatherPerHourHeadline{
-      color: black;
-      height: 24px;
-      width: 130px;
+    .wrapper-weatherPerHourHeadline p{
       font-family:Verdana, Geneva, Tahoma, sans-serif;
-      font-style:normal;
-      font-weight: 500;
-      font-size: 15px;
-      line-height: 24px;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 20px;
     }
     
-    .wrapper-weatherDailyHeadline{
-      color: black;
-      height: 24px;
-      width: 130px;
+    .wrapper-weatherDailyHeadline p{
       font-family:Verdana, Geneva, Tahoma, sans-serif;
-      font-style:normal;
-      font-weight: 500;
-      font-size: 15px;
-      line-height: 24px;
-      padding-top: 20px;
-
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 20px;
     }
+
+
+
   }
