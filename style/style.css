@@ -46,6 +46,47 @@
       font-size: 20px;
     }
 
+    .wrapper-weatherPerHourCards{
+      position: relative;
+      display:inline;
+      text-align: center;
+      justify-content: space-around;
+    }
 
+    .first{
+      position: relative;
+      top: 10px;
+      display:inline;
+      justify-content: end;
+      margin-left: 15px;
+    }
+    .second{
+      position: relative;
+      bottom: 45px;
+      left: 100px;
+      display:inline;
+      margin-left: 10px;
+    }
+
+    .third{
+      position: relative;
+      bottom: 95px;
+      left: 200px;
+      display:inline;
+      margin-left: 10px;
+    }
+
+    .fourth{
+      position: relative;
+      bottom: 145px;
+      left: 300px;
+      display:inline;
+      margin-left: 15px;
+    }
+    h5{
+      font-style: normal;
+      font-weight: bolder;
+      margin-left: 15px;
+    }
 
   }
